@@ -18,7 +18,6 @@ for c in range(0, len(product_name)):
     product_description['Produto'] = description
     product_description['Tom'] = tones
     products.append(product_description.copy())
-    #print(product.prettify())
 
 for product in product_price:
     price = product.contents[2]
